@@ -1,0 +1,32 @@
+{
+  "precision": [
+    {
+      "nombre": "Independientes",
+      "n": 10000,
+      "ess": 9863,
+      "mcse": "0.010",
+      "rhat": "1.000"
+    },
+    {
+      "nombre": "Autocorrelacionadas",
+      "n": 10000,
+      "ess": 518,
+      "mcse": "0.043",
+      "rhat": "1.008"
+    }
+  ],
+  "compatibles": {
+    "rhat": "1.005",
+    "rhat_clasico": "1.001",
+    "w": "1.087",
+    "b": "3.577",
+    "v": "1.089"
+  },
+  "lentas": {
+    "rhat": "3.072",
+    "rhat_clasico": "5.328",
+    "w": "0.148",
+    "b": "4040.696",
+    "v": "4.188"
+  }
+}

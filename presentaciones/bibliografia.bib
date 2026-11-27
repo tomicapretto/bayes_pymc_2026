@@ -1,0 +1,165 @@
+% Bibliografía general del curso para usar con Typst:
+% #bibliography("bibliografia.bib", full: true)
+%
+% Las claves identifican obras completas, documentación y material docente.
+% Las fuentes de ejemplos particulares se registran en referencias.md.
+
+% Libros
+
+@book{lambert2018,
+  author    = {Lambert, Ben},
+  title     = {A Student's Guide to Bayesian Statistics},
+  year      = {2018},
+  publisher = {SAGE Publications}
+}
+
+@book{martin2024,
+  author    = {Martin, Osvaldo A.},
+  title     = {Bayesian Analysis with Python: A Practical Guide to Probabilistic Modeling},
+  edition   = {3},
+  year      = {2024},
+  publisher = {Packt Publishing},
+  isbn      = {9781805127161}
+}
+
+@book{reich-ghosh2026,
+  author    = {Reich, Brian J. and Ghosh, Sujit K.},
+  title     = {Bayesian Statistical Methods: With Applications to Machine Learning},
+  edition   = {2},
+  year      = {2026},
+  publisher = {CRC Press}
+}
+
+@book{gelman-vehtari-mcelreath2026,
+  author    = {Gelman, Andrew and Vehtari, Aki and McElreath, Richard},
+  title     = {Bayesian Workflow},
+  year      = {2026},
+  publisher = {CRC Press},
+  url       = {https://users.aalto.fi/~ave/Bayesian-Workflow.pdf},
+  note      = {Con Daniel Simpson, Charles C. Margossian, Yuling Yao, Lauren Kennedy, Jonah Gabry, Paul-Christian Bürkner, Martin Modrák y Vianey Leos Barajas. Edición electrónica corregida del 19 de agosto de 2026, para uso no comercial}
+}
+
+@book{johnson-ott-dogucu2022,
+  author    = {Johnson, Alicia A. and Ott, Miles Q. and Dogucu, Mine},
+  title     = {Bayes Rules! An Introduction to Applied Bayesian Modeling},
+  year      = {2022},
+  publisher = {CRC Press},
+  url       = {https://www.bayesrulesbook.com/}
+}
+
+@book{gelman2014bda,
+  author    = {Gelman, Andrew and Carlin, John B. and Stern, Hal S. and Dunson, David B. and Vehtari, Aki and Rubin, Donald B.},
+  title     = {Bayesian Data Analysis},
+  edition   = {3},
+  year      = {2014},
+  publisher = {CRC Press},
+  isbn      = {9781439840955},
+  url       = {https://sites.stat.columbia.edu/gelman/book/}
+}
+
+@book{mcelreath2020,
+  author    = {McElreath, Richard},
+  title     = {Statistical Rethinking: A Bayesian Course with Examples in R and Stan},
+  edition   = {2},
+  year      = {2020},
+  publisher = {CRC Press}
+}
+
+@book{villani2025,
+  author    = {Villani, Mattias},
+  title     = {Bayesian Learning},
+  year      = {2025},
+  url       = {https://github.com/mattiasvillani/BayesianLearningBook/raw/main/pdf/BayesBook.pdf},
+  note      = {Libro del curso Bayesian Learning de la Universidad de Estocolmo}
+}
+
+% Cursos y materiales docentes
+
+@misc{vehtari-bda-course,
+  author       = {Vehtari, Aki},
+  title        = {Bayesian Data Analysis: Course at Aalto University},
+  howpublished = {Material del curso CS-E5710, Aalto University},
+  url          = {https://avehtari.github.io/BDA_course_Aalto/}
+}
+
+@misc{villani-bayesian-learning-course,
+  author       = {Villani, Mattias},
+  title        = {Bayesian Learning},
+  howpublished = {Material del curso, Stockholm University},
+  url          = {https://mattiasvillani.com/BayesLearnCourse/}
+}
+
+% Documentación de las bibliotecas
+
+@misc{arviz-docs,
+  author       = {{ArviZ Developers}},
+  title        = {{ArviZ}: Documentation},
+  howpublished = {Documentación en línea},
+  url          = {https://python.arviz.org/en/stable/}
+}
+
+@misc{preliz-docs,
+  author       = {{PreliZ Developers}},
+  title        = {{PreliZ}: Documentation},
+  howpublished = {Documentación en línea},
+  url          = {https://preliz.readthedocs.io/en/latest/}
+}
+
+@misc{pymc-docs,
+  author       = {{PyMC Developers}},
+  title        = {{PyMC}: Documentation},
+  howpublished = {Documentación en línea},
+  url          = {https://www.pymc.io/projects/docs/en/stable/}
+}
+
+@misc{bambi-docs,
+  author       = {{Bambi Developers}},
+  title        = {{Bambi}: Documentation},
+  howpublished = {Documentación en línea},
+  url          = {https://bambinos.github.io/bambi/}
+}
+
+% Artículos recomendados para citar las bibliotecas
+
+@article{arviz2026,
+  author  = {Martin, Osvaldo A. and Abril-Pla, Oriol and Deklerk, Jordan and Axen, Seth D. and Carroll, Colin and Hartikainen, Ari and Vehtari, Aki},
+  title   = {{ArviZ}: A Modular and Flexible Library for Exploratory Analysis of Bayesian Models},
+  journal = {Journal of Open Source Software},
+  year    = {2026},
+  volume  = {11},
+  number  = {119},
+  pages   = {9889},
+  doi     = {10.21105/joss.09889}
+}
+
+@article{preliz2023,
+  author  = {Icazatti, Alejandro and Abril-Pla, Oriol and Klami, Arto and Martin, Osvaldo A.},
+  title   = {{PreliZ}: A Tool-Box for Prior Elicitation},
+  journal = {Journal of Open Source Software},
+  year    = {2023},
+  volume  = {8},
+  number  = {89},
+  pages   = {5499},
+  doi     = {10.21105/joss.05499}
+}
+
+@article{pymc2023,
+  author  = {Abril-Pla, Oriol and Andreani, Virgile and Carroll, Colin and Dong, Larry and Fonnesbeck, Christopher J. and Kochurov, Maxim and Kumar, Ravin and Lao, Junpeng and Luhmann, Christian C. and Martin, Osvaldo A. and Osthege, Michael and Vieira, Ricardo and Wiecki, Thomas and Zinkov, Robert},
+  title   = {{PyMC}: A Modern, and Comprehensive Probabilistic Programming Framework in Python},
+  journal = {PeerJ Computer Science},
+  year    = {2023},
+  volume  = {9},
+  pages   = {e1516},
+  doi     = {10.7717/peerj-cs.1516}
+}
+
+@article{bambi2022,
+  author  = {Capretto, Tomás and Piho, Camen and Kumar, Ravin and Westfall, Jacob and Yarkoni, Tal and Martin, Osvaldo A.},
+  title   = {{Bambi}: A Simple Interface for Fitting Bayesian Linear Models in Python},
+  journal = {Journal of Statistical Software},
+  year    = {2022},
+  volume  = {103},
+  number  = {15},
+  pages   = {1--29},
+  doi     = {10.18637/jss.v103.i15}
+}
